@@ -36,7 +36,7 @@ body {
   text-decoration-line: none;
 }
 
-.navigation-link:active,
+.navigation-link:focus,
 .navigation-link:hover {
   color: #404bbf;
 }
@@ -91,7 +91,6 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
 }
 
@@ -119,6 +118,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -132,7 +132,7 @@ body {
 /* team */
 
 .team-section {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .team-header {
@@ -141,6 +141,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -149,6 +150,7 @@ body {
 }
 
 .team-list-item {
+  background-color: #ffffff;
 }
 
 .team-img {
@@ -175,6 +177,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
