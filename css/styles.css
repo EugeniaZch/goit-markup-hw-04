@@ -80,7 +80,6 @@ body {
 
 .hero-button {
   font-family: "Roboto", sans-serif;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -214,6 +213,3 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-
-position, width, height, left, top, box-sizing, display, align-items, padding, flex-direction, gap, border-radius, box-shadow, order, flex-grow, border-bottom
