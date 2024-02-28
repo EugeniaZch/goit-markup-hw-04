@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #fcfcfc;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header {
-  background: #fff;
+  background-color: #fff;
 }
 
 .logo {
@@ -41,6 +41,9 @@ body {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
 .address-list {
   list-style-type: none;
 }
@@ -55,7 +58,7 @@ body {
   text-decoration-line: none;
 }
 
-.address-link:active,
+.address-link:focus,
 .address-link:hover {
   color: #404bbf;
 }
@@ -63,7 +66,7 @@ body {
 /* hero */
 
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero-header {
@@ -71,11 +74,11 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
@@ -83,11 +86,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 /* features */
@@ -127,7 +132,7 @@ body {
 /* team */
 
 .team-section {
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-header {
@@ -136,7 +141,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -155,7 +159,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -163,7 +166,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
@@ -173,7 +175,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -205,7 +206,7 @@ body {
 /* footer */
 
 footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .logo .footer-logo {
