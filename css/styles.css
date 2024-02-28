@@ -98,9 +98,6 @@ body {
 /* features */
 
 .visually-hidden {
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -217,3 +214,6 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+
+position, width, height, left, top, box-sizing, display, align-items, padding, flex-direction, gap, border-radius, box-shadow, order, flex-grow, border-bottom
