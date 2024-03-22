@@ -39,6 +39,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center
   flex-grow: 1;
 }
 
@@ -54,8 +55,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo .nav-logo {
@@ -76,6 +75,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration-line: none;
+  padding: 24px 0
 }
 
 .navigation-link:focus,
@@ -351,8 +351,7 @@ footer {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0 15px 0 15px;
 }
 
 * {
