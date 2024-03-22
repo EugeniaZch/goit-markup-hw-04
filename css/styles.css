@@ -66,6 +66,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+padding: 24px 0;
 }
 
 .navigation-link {
@@ -75,7 +76,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration-line: none;
-  padding: 24px 0
 }
 
 .navigation-link:focus,
@@ -118,6 +118,7 @@ img {
   background-color: #2e2f42;
   display: block;
   align-items: center;
+  padding: 188px 0;
 }
 
 .hero-header {
