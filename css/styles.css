@@ -336,8 +336,11 @@ footer {
   padding: 100px 0;
 }
 
-.logo {
-  display: inline-block; 
+href .footer-logo {
+margin-bottom: 16px;
+}
+
+.footer-logo {
 margin-bottom: 16px;
 }
 
