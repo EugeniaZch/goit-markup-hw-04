@@ -26,12 +26,15 @@ img {
   display: block;
 }
 
+/* ==============header=============== */
+
 .header {
   background-color: #fff;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
-  /* position: fixed; */
+  position: sticky;
+  top: 0;
 }
 
 .header .container {
@@ -78,11 +81,24 @@ img {
   text-decoration-line: none;
   padding: 24px 0;
   display: block;
+  position: relative;
+  transition: color 100ms ease-in 150ms, background-color 1000ms ease-in 100ms;
 }
 
 .menu:focus,
 .menu:hover {
   color: #404bbf;
+}
+
+.menu:active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  background-color: #404bbf;
 }
 
 .address {
@@ -107,6 +123,7 @@ img {
   color: #434455;
 
   text-decoration-line: none;
+  transition: background-color ease-in 100ms;
 }
 
 .address-link:focus,
@@ -114,7 +131,7 @@ img {
   color: #404bbf;
 }
 
-/* hero */
+/* ==============hero================ */
 
 .hero {
   background-color: #2e2f42;
@@ -168,6 +185,7 @@ img {
   align-items: center;
   cursor: pointer;
   margin: 0 auto;
+  transition: background-color ease-out 150ms;
 }
 
 .hero-button:hover,
@@ -175,7 +193,7 @@ img {
   background-color: #404bbf;
 }
 
-/* features */
+/* ===============features================ */
 
 .visually-hidden {
   position: absolute;
@@ -195,6 +213,17 @@ img {
   padding-bottom: 120px;
   display: flex;
   align-items: baseline;
+}
+
+.features-item {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+  margin-bottom: 8px;
 }
 
 .features-list {
@@ -225,7 +254,7 @@ img {
   color: #434455;
 }
 
-/* team */
+/* =============================team================================ */
 
 .team-section {
   background-color: #f4f4fd;
@@ -286,7 +315,36 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
+
+.team-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color ease-in-out 100ms;
+}
+
+/* .contact-icon {
+  fill: none;
+} */
+
+.contacts-item:hover {
+  background-color: #31d0aa;
+}
+
+/* =====================portfolio=============================== */
 
 .pf-section {
   padding-top: 120px;
