@@ -297,7 +297,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-bottom: 120px;
 }
 
 .portfolio-list-item {
@@ -344,11 +343,11 @@ footer {
 .ft-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo .footer-logo {
