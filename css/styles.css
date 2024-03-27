@@ -80,7 +80,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   text-decoration-line: none;
   padding: 24px 0;
   display: block;
@@ -353,12 +353,17 @@ img {
 }
 
 .contact-icon:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .contact-icon:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
+
+.team-contact-svg {
+  fill: #f4f4fd;
+}
+
 /* =====================portfolio=============================== */
 
 .pf-section {
@@ -484,6 +489,7 @@ footer {
 }
 
 .footer-logo-container {
+  align-items: baseline;
   margin-right: 120px;
 }
 
