@@ -531,7 +531,7 @@ footer {
   height: 40px;
 }
 
-.ftr-contact-icon {
+.ftr-contact-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -544,11 +544,11 @@ footer {
 
 /*  */
 
-.ftr-contact-icon:focus {
+.ftr-contact-link:focus {
   background-color: #31d0aa;
 }
 
-.ftr-contact-icon:hover {
+.ftr-contact-link:hover {
   background-color: #31d0aa;
 }
 
