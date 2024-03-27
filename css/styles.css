@@ -482,6 +482,7 @@ footer {
 
 .ftr-media {
   display: flex;
+  align-items: baseline;
 }
 
 .container .ftr-media {
@@ -518,19 +519,19 @@ footer {
   margin-bottom: 16px;
 }
 
-.contacts-list {
+.ftr-contacts-list {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 16px;
 }
 
-.contacts-item {
+.ftr-contacts-item {
   width: 40px;
   height: 40px;
 }
 
-.contact-icon {
+.ftr-contact-icon {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -540,11 +541,9 @@ footer {
   justify-content: center;
 }
 
-.contact-icon:hover {
-  background-color: #31d0aa;
-}
-
-.contact-icon:focus {
+/*  */
+.ftr-contact-icon:hover,
+.ftr-contact-icon:focus {
   background-color: #31d0aa;
 }
 
