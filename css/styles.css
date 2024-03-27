@@ -543,19 +543,12 @@ footer {
 }
 
 /*  */
-/* .ftr-contact-icon:hover {
-  background-color: #31d0aa;
-}
 
 .ftr-contact-icon:focus {
   background-color: #31d0aa;
-} */
-
-.ftr-contact-icon:hover {
-  background-color: #31d0aa;
 }
 
-.ftr-contact-item:focus {
+.ftr-contact-icon:hover {
   background-color: #31d0aa;
 }
 
